@@ -1,5 +1,4 @@
-﻿// File: Program.cs
-namespace PercentualDistribuidora
+﻿namespace PercentualDistribuidora
 {
     static class Program
     {

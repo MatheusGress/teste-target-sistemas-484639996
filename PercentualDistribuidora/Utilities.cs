@@ -1,4 +1,3 @@
-// File: FaturamentoUtils.cs
 namespace PercentualDistribuidora
 {
     public class State

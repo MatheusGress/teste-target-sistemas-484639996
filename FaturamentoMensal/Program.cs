@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-
-namespace FaturamentoMensal
+﻿namespace _FaturamentoMensal
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             // Caminho para o arquivo JSON
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "data", "Dados.json");

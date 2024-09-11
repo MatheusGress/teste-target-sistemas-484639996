@@ -8,7 +8,7 @@ namespace _FaturamentoMensal
         public static List<DailyRecord> DeserializeJsonToRecords(string filePath)
         {
             string jsonString = File.ReadAllText(filePath);
-            return JsonSerializer.Deserialize<List<DailyRecord>>(jsonString) ?? new List<DailyRecord>();
+            return JsonSerializer.Deserialize<List<DailyRecord>>(jsonString) ?? [];
         }
     }
 

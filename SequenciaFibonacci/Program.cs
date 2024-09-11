@@ -1,6 +1,6 @@
 ﻿namespace SequenciaFibonacci
 {
-    class Program
+    static class Program
     {
         static bool IsPerfectSquare(int x)
         {

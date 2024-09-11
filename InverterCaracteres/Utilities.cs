@@ -19,7 +19,7 @@ namespace InverterCaracteres
             }
 
             // Converte o array de volta para uma string
-            string reversed = new string(characters);
+            string reversed = new(characters);
 
             // Retorna uma tupla com a string original e a invertida
             return (s, reversed);

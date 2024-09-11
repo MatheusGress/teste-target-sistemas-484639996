@@ -12,7 +12,7 @@
             {
                 List<DailyRecord> records = Utilities.DeserializeJsonToRecords(filePath);
 
-                var filteredRecords = records.Where(record => record.Value != 0).ToList();
+                var filteredRecords = records.Where(record => record.Value > 0).ToList();
 
                 if (filteredRecords.Count > 0)
                 {

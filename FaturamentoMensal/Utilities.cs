@@ -1,7 +1,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace _FaturamentoMensal
+namespace FaturamentoMensal
 {
     public static class Utilities
     {

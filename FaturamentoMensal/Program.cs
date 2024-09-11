@@ -1,4 +1,4 @@
-﻿namespace _FaturamentoMensal
+﻿namespace FaturamentoMensal
 {
     static class Program
     {
